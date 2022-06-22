@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./style.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Chandu Poloju</title>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $('#button').click(function () {
+        if (!$('#iframe').length) {
+          $('#iframeHolder').html('<iframe id="iframe" src="./uploads/myCV.pdf" width="500" height="500"></iframe>');
+        }
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+  <script>
+    function requestDesktopSite() {
+      document.getElementsByTagName('meta')['viewport'].content = 'min-width: 980px;';
+    }
+  </script>
+  <input class="checkbox-cb" id="checkbox-cb" type="checkbox" />
+  <div class="cookie-bar">
+    <span class="mobile">Use Desktop site for better view </span>
+    <span>
+      <button onclick="requestDesktopSite()">Click here <i class="fa fa-desktop"></i></button>
+    </span>
+    <label for="checkbox-cb" class="close-cb">x</label>
+  </div>
+  <br />
+  <br />
+  <br />
+  <div id="drag" class="cv instaFade wrap">
+    <div class="mainDetails">
+      <div id="headshot">
+        <a href="https://www.linkedin.com/in/chandu-poloju/" title="LinkedIn" target=" _blank"><img
+            src="./img/profile.jpg"
+            title="Hi, I'm Chandu!" alt="Chandu Poloju" /></a>
+      </div>
+      <div id="name">
+        <h1 class="quickFade delayTwo">Chandu Poloju</h1> <br />
+        <h4 class="quickFade delayThree">Software Engineer</h4>
+        <h4 class="quickFade delayThree"> <a href="https://www.cogentibs.com" target=" _blank">Cogent Integrated
+            Business Solutions Inc.</a></h4>
+      </div>
+      <div id="contactDetails" class="quickFade delayFour">
+        <ul>
+          <li><a href="https://www.linkedin.com/in/chandu-poloju/" title="LinkedIn" target=" _blank"><i
+                class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+
+        </ul>
+      </div>
+
+      <div class="clear">
+
+      </div>
+    </div>
+
+    <div id="mainArea" class="quickFade delayFive">
+
+      <section>
+        <article>
+          <div class="sectionTitle">
+            <h1> Profile</h1>
+          </div>
+
+          <div class="sectionContent">
+            <h1>
+              Expert in developing Responsive & Interactive websites | Expert in CSS3, HTML5, Bootstrap, JavaScript, and
+              JQuery, React JS
+            </h1>
+            <h1>
+              Worked with AWS Services,Internet of Things, Twilio, Wix, WordPress, Losant Platform
+            </h1>
+            <h1>
+              Good knowledge in Python, UiPath RPA
+            </h1>
+
+          </div>
+        </article>
+        <div class="clear"></div>
+      </section>
+
+
+      <section>
+        <div class="sectionTitle">
+          <h1>Work Experience</h1>
+        </div>
+
+        <div class="sectionContent">
+          <article>
+            <h2>Software Engineer</h2>
+            <h3><a href="https://www.cogentibs.com" target=" _blank">Cogent Integrated Business Solutions Inc.</a></h3>
+            <p class="subDetails">Jan. 2020 - Present</p>
+          </article>
+          <br />
+          <article>
+            <h2>Program Co-Ordinator (IT/MARCOM)</h2>
+            <h3><a href="https://www.krishi.ngo" target=" _blank">Krishi NGO</a></h3>
+            <p class="subDetails">May 2019 - Present</p>
+          </article>
+
+
+        </div>
+
+
+        <div class="clear"></div>
+      </section>
+
+      <section id="Education">
+        <div class="sectionTitle">
+          <h1>Education</h1>
+        </div>
+
+        <div class="sectionContent">
+          <article>
+            <h2>M.Tech (2020-22)</h2>
+            <p class="subDetails">BITS WILP</p>
+            <p>Software Engineeering
+            </p>
+          </article>
+
+        </div>
+        <div class="clear"></div>
+      </section>
+      <section id="contact">
+        <div class="sectionTitle">
+          <h1>Contact</h1>
+        </div>
+
+        <div class="sectionContent">
+          <article>
+            <h3> Email - <a href="mailto:polojuchandu3@gmail.com" target=" _blank">polojuchandu3@gmail.com</a></h3>
+            <h3> Mobile - <a href="tel:+919392909376" target=" _blank">+91 93929 09376</a></h3>
+          </article>
+        </div>
+        <div class="clear"></div>
+      </section>
+      <div id="mainArea" class="quickFade delayFive">
+
+        <footer>
+          Always a Learner
+        </footer>
+      </div>
+
+    </div>
+</body>
+
+
+
+
+</html>
