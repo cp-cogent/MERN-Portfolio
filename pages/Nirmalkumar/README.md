@@ -1,2 +1,0 @@
-# Nirmal
- My_portfolio
