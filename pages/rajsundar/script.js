@@ -23,12 +23,12 @@ window.onmousemove = (e) =>{
 
 function passCheck(){
     if(prompt("Please enter your password","") == "1234"){
-      window.location = "/pages/rajsundar/index.html";
+      window.location = "https://mern-portfolio.cogentibs.in/pages/rajsundar/index.html";
     }else{
       window.location = "index.html";
     }
   }
-  
+
 document.querySelectorAll('a').forEach(links =>{
 
     links.onmouseenter = () =>{
