@@ -113,6 +113,7 @@
     </div>
     <div class="row">
         <div class="col-sm-3">
+            <!-- venkatakrishna portfolio code -->
             <div class="card text-center">
                 <img class="card-img-top"
                     src="./pages/venkatakrishna/img/profile1.JPG"
@@ -125,10 +126,33 @@
                     <li class="list-group-item">Vijayawada</li>
                 </ul>
                 <div class="card-body">
-                    <a href="/pages/venkatakrishna/index.html" class="card-link">Portfolio</a>
+                    <!-- <a href="/pages/venkatakrishna/index.html" class="card-link"></a> -->
+                    <button id = "portfolioBtn" onclick="myFunction()" style="background-color:white; border-style:none;color:blue">Portfolio</button>
+                    
                     <a href="https://loquacious-taffy-c427c8.netlify.app/" class="card-link">Netlify.app</a>
+
+                    <script language="Javascript">
+                        //prompt.
+                        let btnEle = document.getElementById("portfolioBtn");
+
+                        function myFunction() {
+                            var password;
+                            var correctPass = "123456";
+                            password = prompt("Enter in the password:","");
+            
+                        if(password == correctPass) {
+                                alert('click OK to view this site');
+                                window.location ="/pages/venkatakrishna/index.html";
+                            
+
+                        } else {
+                                window.location = "http://google.com";
+                        } 
+                        }
+                        //->
+                </script> 
                 </div>
-            </div>
+            </div>  
         </div>
         <div class="col-sm-3">
             <div class="card text-center">
