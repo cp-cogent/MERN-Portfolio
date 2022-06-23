@@ -725,6 +725,11 @@
 .devicons-dlang:before {
   content: "\e6af";
 }
+
+.devicons-docker:before {
+  content: "\e6b0";
+}
+
 .devicons-erlang:before {
   content: "\e6b1";
 }

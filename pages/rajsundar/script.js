@@ -21,6 +21,15 @@ window.onmousemove = (e) =>{
     cursor2.style.left = e.pageX + 'px';
 }
 
+function passCheck(){
+    
+    if(prompt("Please enter your password","") == "1234"){
+        alert("success")
+    }else{
+        window.location="index.html"
+    }
+  }
+
 document.querySelectorAll('a').forEach(links =>{
 
     links.onmouseenter = () =>{
