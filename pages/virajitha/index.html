@@ -12,9 +12,21 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-
-<body>
-
+<script>
+    function myFunction() {
+        var password = prompt("Enter in the password");
+        if (password=="1234") 
+	    {             
+            location = "https://tangerine-beignet-240d25.netlify.app/";
+         }
+        else          
+	    {             
+        location = "index.html"  ;
+        }
+    }
+</script>
+<body onload="myFunction()">
+    
     <!-- header section starts  -->
 
     <header>
