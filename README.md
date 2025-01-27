@@ -9,4 +9,4 @@ All Cogent MERN Intern Portfolios
 
 
 ## Version 1
-All Portfolios are developed by HTML and CSS
+All Portfolios are developed by HTML and CSS and Js
